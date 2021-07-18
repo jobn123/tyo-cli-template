@@ -1,8 +1,12 @@
 {
   "name": "@tyo-cli/tyo-cli-template-vue-element-admin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A magical vue admin. An out-of-box UI solution for enterprise applications. Newest development stack of vue. Lots of awesome features",
   "author": "Pan <panfree23@gmail.com>",
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.org/"
+  },
   "scripts": {
     "dev": "vue-cli-service serve",
     "lint": "eslint --ext .js,.vue src",
